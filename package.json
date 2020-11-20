@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Petryxan/sass-flexbox-grid/issues"
   },
-  "homepage": "https://github.com/Petryxan/sass-flexbox-grid#readme"
+  "homepage": "https://github.com/Petryxan/sass-flexbox-grid#readme",
+  "dependencies": {
+    "sass": "^1.29.0"
+  }
 }
