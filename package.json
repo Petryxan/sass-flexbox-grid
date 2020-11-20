@@ -4,7 +4,8 @@
   "description": "sass-flexbox-grid",
   "main": "index.html",
   "scripts": {
-    "test": "run"
+    "test": "run",
+    "bundle": "sass sass/main.scss css/main.css"
   },
   "repository": {
     "type": "git",
