@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/mymacbook/Library/Android/sdk/emulator:/Users/mymacbook/Library/Android/sdk/tools:/Users/mymacbook/Library/Android/sdk/tools/bin:/Users/mymacbook/Library/Android/sdk/platform-tools:/Users/mymacbook/Library/Android/sdk/emulator:/Users/mymacbook/Library/Android/sdk/tools:/Users/mymacbook/Library/Android/sdk/tools/bin:/Users/mymacbook/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.0.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/mymacbook/Documents/projects/grid/sass-flexbox-grid/package.json: Unexpected token s in JSON at position 40
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+      "scripts": {
+          "compile": { sass sass/main.scss css/main.css
+          }
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
