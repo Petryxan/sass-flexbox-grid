@@ -1,6 +1,22 @@
 {
-    "scripts": {
-        "compile": { sass sass/main.scss css/main.css
-        }
-    }
+  "name": "sass-flexbox-grid",
+  "version": "1.0.0",
+  "description": "sass-flexbox-grid",
+  "main": "index.html",
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Petryxan/sass-flexbox-grid.git"
+  },
+  "keywords": [
+    "flexbox-grid"
+  ],
+  "author": "Petro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Petryxan/sass-flexbox-grid/issues"
+  },
+  "homepage": "https://github.com/Petryxan/sass-flexbox-grid#readme"
 }
